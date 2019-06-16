@@ -8,7 +8,7 @@ output:
     df_print: paged
   word_document: default
 ---
-
+ 
 # Introduction:
 
   The purpose of this project is to build a machine learning algorithm to predict movie ratings based on given "movielens" data.  We will generate and tune different models on training set (i.e. "edx" set) and will then apply it on test set to predict movie ratings(i.e. "validation" set). True ratings and predicted ratings will then be compared using RMSE function (Root Mean Square Error). After we develop different models and compare their RMSE values,  we will be in a position to select best model that fits defined standards.
